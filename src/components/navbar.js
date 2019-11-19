@@ -9,7 +9,7 @@ function Navbar(props) {
 
   const prepareAddTodo = e => {
     e.preventDefault();
-    if (value == "") {
+    if (value === "") {
       alert("ISI LAH");
       return;
     }
