@@ -21,7 +21,7 @@ function Navbar(props) {
     <div className="navbar has-shadow">
       <div className="navbar-brand">
         <div className="navbar-item">
-          <p className="title">Easy Todo</p>
+          <p className="title">Gawean</p>
         </div>
 
         <button
@@ -51,7 +51,7 @@ function Navbar(props) {
               </p>
               <p className="control">
                 <button className="button is-info has-text-weight-bold">
-                  Add Todo
+                  Tambah
                 </button>
               </p>
             </form>

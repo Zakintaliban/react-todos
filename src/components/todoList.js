@@ -19,7 +19,7 @@ function TodoList(props) {
 
       <section className="section">
         <div className="container">
-          <input className="input" placeholder="Search..." type="text" value={props.store.filter} onChange={(e) => props.store.filter = e.target.value} />
+          <input className="input" placeholder="Cari..." type="text" value={props.store.filter} onChange={(e) => props.store.filter = e.target.value} />
         </div>
       </section>
 
